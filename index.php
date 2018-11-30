@@ -20,7 +20,7 @@
 		
 		<main>
 			<div id="big-message" class="hero"> 
-				<h2>Featuring top US climbers!</h2>
+				<h2>Want to go to London? Learn more about the city here!</h2>
 			</div>
 		</main>
 
@@ -30,13 +30,16 @@
 				<a href="login.php" class="login-link">
 					Admin Login
 				</a>
+				<a href="new-user.php">
+				 Sign Up
+				</a>
 					<form> 
 						Email <input type="text" name="email">
 						<input type="submit" name="submit">
 					</form>
 				</section>
 				<h2 class="terminal">
-					<a href="profiles.php" class="non-icon-link">Climber Profiles →</a> 
+					<a href="survey.php" class="survey-link">Take Our Survey!</a> 
 				</h2>
 			</div>
 		</footer>
