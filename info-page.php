@@ -4,9 +4,13 @@
 	<title>London Info</title>
 </head>
 <body>
+
 	<h1>
 		London Calling!
 	</h1>
+
+	<main>
+		
 
 	<h2>
 		Food & Drink
@@ -14,6 +18,7 @@
 		<p>
 			
 		</p>
+		<img src=" ">
 
 	<h2>
 		History
@@ -21,6 +26,7 @@
 		<p>
 			
 		</p>
+		<img src="">
 
 	<h2>
 		Attractions
@@ -28,5 +34,8 @@
 		<p>
 			
 		</p>
+		<img src="">
+
+	</main>
 </body>
 </html>
