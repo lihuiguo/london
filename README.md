@@ -9,9 +9,9 @@
 ### notes?  
 - low-level london tourist information  
 - have a question about food and drink, about attractions, about histroy--if a paragraph suggests something, ask about those things  
--- "what type of food/drink are you interested in? (radio buttons?)
--- "what historical feature of london most interests you? (ehhh maybe reword)  
--- "Are there any attractions yo're particularly interested in seeing? 
+- "what type of food/drink are you interested in? (radio buttons?)
+- "what historical feature of london most interests you? (ehhh maybe reword)  
+- "Are there any attractions yo're particularly interested in seeing? 
 ## Taxonomy 
 
 ## Choreography  
