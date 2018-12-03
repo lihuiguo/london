@@ -1,6 +1,7 @@
 <?php
 // Initialize the session
 session_start();
+//this is bootstrapped, but that might be something to change in CSS Design. 
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
