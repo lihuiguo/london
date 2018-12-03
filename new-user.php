@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <header class="persistent">
 			<div class="container">
-				<h1 class="lead">Visit London!</h1>
+				<h1 class="lead">London Calling!</h1>
 			</div>
 </header>
 <body>
