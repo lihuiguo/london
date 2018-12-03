@@ -6,7 +6,7 @@
 </head>
 <body>
 	<main>
-		<form action="admin-data.php">
+		<form action="thanks.php">
 				<!-- Radio Buttons/Forms here-->
 			<div>
 				First Name <input type="text" name="firstname">
