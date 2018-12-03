@@ -8,7 +8,10 @@
 
 ### notes?  
 - low-level london tourist information  
-- goal is to get users to take a survey, with optional email newsletter signup  
+- have a question about food and drink, about attractions, about histroy--if a paragraph suggests something, ask about those things  
+-- "what type of food/drink are you interested in? (radio buttons?)
+-- "what historical feature of london most interests you? (ehhh maybe reword)  
+-- "Are there any attractions yo're particularly interested in seeing? 
 ## Taxonomy 
 
 ## Choreography  
