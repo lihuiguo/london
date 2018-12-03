@@ -5,12 +5,12 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: welcome.php");
+    header("location: admin-data.php");
     exit;
 }
  
 // Include config file
-require_once "config_user.php";
+require_once "config.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            header("location: welcome.php");
+                            header("location: admin-data.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "The password you entered was not valid.";
@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <header class="persistent">
             <div class="container">
-                <h1 class="lead">London Calling!</h1>
+                <h1 class="lead"><a href="index.php">London Calling!</a></h1>
             </div>
 </header>
 <body>

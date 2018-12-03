@@ -12,23 +12,23 @@
 </header>
 <body>
 	<main>
-		<form action="thanks.php">
+		<form action="thanks.php" method="post">
 				<!-- Radio Buttons/Forms here-->
 			<div>
-				First Name <input type="text" name="firstname">
+				First Name <input type="text" name="first_name">
 			</div>
 
 			<div>
-				Last Name <input type="text" name="lastname">
+				Last Name <input type="text" name="last_name">
 			</div>
 			<div>
 				Have you ever visited London before? 
-				<input type="radio" name="have-visited" value="yes"> Yes
-				<input type="radio" name="have-visited" value="no"> No
+				<input type="radio" name="has_visited" value="yes"> Yes
+				<input type="radio" name="has_visited" value="no"> No
 			</div>
 			<div>
 				If so, when? 
-				<input type="text" name="date-visited">
+				<input type="text" name="date_visited">
 			</div>
 			<div>
 				Would you like to visit London?

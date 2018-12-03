@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "config_user.php";
+require_once "config.php";
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <header class="persistent">
 			<div class="container">
-				<h1 class="lead">London Calling!</h1>
+				<h1 class="lead"><a href="index.php">London Calling!</a></h1>
 			</div>
 </header>
 <body>
