@@ -2,24 +2,26 @@
 <html>
 <head>
 	<title>Visiting London</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 
+<body>
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead">Visit London!</h1>
 			<section class="strong-follow">
-				
+
 				<p>
-					<a href="info.php"> 
+					<a href="info.php">
 						See what London has to offer!
 					</a>
 				</p>
 			</section>
 			</div>
 		</header>
-		
+
 		<main>
-			<div id="big-message" class="hero"> 
+			<div id="big-message" class="hero">
 				<h2>Want to go to London? Learn more about the city here!</h2>
 			</div>
 		</main>
@@ -33,14 +35,16 @@
 				<a href="new-user.php">
 				 Sign Up
 				</a>
-					<form> 
+					<form>
 						Email <input type="text" name="email">
 						<input type="submit" name="submit">
 					</form>
 				</section>
 				<h2 class="terminal">
-					<a href="survey.php" class="survey-link">Take Our Survey!</a> 
+					<a href="survey.php" class="survey-link">Take Our Survey!</a>
 				</h2>
 			</div>
 		</footer>
+
+</body>
 </html>
