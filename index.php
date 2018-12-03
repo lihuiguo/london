@@ -33,10 +33,7 @@
 				<a href="new-user.php">
 				 Sign Up
 				</a>
-					<form> 
-						Email <input type="text" name="email">
-						<input type="submit" name="submit">
-					</form>
+			
 				</section>
 				<h2 class="terminal">
 					<a href="survey.php" class="survey-link">Take Our Survey!</a> 
