@@ -5,7 +5,7 @@
 </head>
 <body>
 	<main>
-		<form>
+		<form action="admin-data.php">
 			<p>
 				First Name <input type="text" name="firstname">
 			</p>
@@ -21,6 +21,17 @@
 			<p>
 				If so, when? 
 				<input type="text" name="date-visited">
+			</p>
+			<p>
+				Would you like to visit London?
+			</p>
+
+			<p>
+				If so, sign up for our newsleter for tourist tips and expert travel advice!
+				<input type="" name="">
+			</p>
+			<p>
+				<input type="submit" value="Submit">
 			</p>
 			<
 			<!-- Radio Buttons/Forms here-->
