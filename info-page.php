@@ -38,4 +38,8 @@
 
 	</main>
 </body>
+<footer>
+	<a href="index.php" >Home</a>
+	<a href="survey.php" >Take our survey!</a>
+</footer>
 </html>
