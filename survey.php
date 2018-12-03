@@ -7,35 +7,38 @@
 <body>
 	<main>
 		<form action="admin-data.php">
-			<p>
+				<!-- Radio Buttons/Forms here-->
+			<div>
 				First Name <input type="text" name="firstname">
-			</p>
+			</div>
 
-			<p>
+			<div>
 				Last Name <input type="text" name="lastname">
-			</p>
-			<p>
+			</div>
+			<div>
 				Have you ever visited London before? 
 				<input type="radio" name="have-visited" value="yes"> Yes
 				<input type="radio" name="have-visited" value="no"> No
-			</p>
-			<p>
+			</div>
+			<div>
 				If so, when? 
 				<input type="text" name="date-visited">
-			</p>
-			<p>
+			</div>
+			<div>
 				Would you like to visit London?
-			</p>
+			</div>
 
-			<p>
+			<div>
 				If so, sign up for our newsleter for tourist tips and expert travel advice!
-				<input type="" name="">
-			</p>
-			<p>
+			</div>
+			<div>
+					Email <input type="text" name="email">
+			</div>
+			<div>
 				<input type="submit" value="Submit">
-			</p>
-			<
-			<!-- Radio Buttons/Forms here-->
+			</div>
+		
+		
 		</form>
 	</main>
 
