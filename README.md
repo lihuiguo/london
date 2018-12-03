@@ -1,6 +1,10 @@
 # london
 
 ## Ontology  
+
+### Classes  
+- someone interested in traveling to London
+- general info  
 - low-level london tourist information  
 - goal is to get users to take a survey, with optional email newsletter signup  
 ## Taxonomy 
