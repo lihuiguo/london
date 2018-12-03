@@ -10,7 +10,7 @@
 			<section class="strong-follow">
 				
 				<p>
-					<a href="info.php"> 
+					<a href="info-page.php"> 
 						See what London has to offer!
 					</a>
 				</p>
