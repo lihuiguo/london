@@ -13,11 +13,7 @@
 			<section class="strong-follow">
 
 				<p>
-<<<<<<< HEAD
-					<a href="info.php">
-=======
-					<a href="info-page.php"> 
->>>>>>> fdf4f373ad2511321aeccc209763fa5e702e53aa
+					<a href="info-page.php">
 						See what London has to offer!
 					</a>
 				</p>
@@ -34,18 +30,6 @@
 		<footer class="persistent">
 			<div class="container">
 				<section class="weak-follow">
-<<<<<<< HEAD
-				<a href="login.php" class="login-link">
-					Admin Login
-				</a>
-				<a href="new-user.php">
-				 Sign Up
-				</a>
-					<form>
-						Email <input type="text" name="email">
-						<input type="submit" name="submit">
-					</form>
-=======
 						<div>
 							<a href="login.php" class="login-link">
 							Admin Login
@@ -56,7 +40,6 @@
 							 Sign Up
 							</a>
 						</div>
->>>>>>> fdf4f373ad2511321aeccc209763fa5e702e53aa
 				</section>
 				<h2 class="terminal">
 					<a href="survey.php" class="survey-link">Take Our Survey!</a>
