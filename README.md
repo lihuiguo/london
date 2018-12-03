@@ -1,7 +1,8 @@
 # london
 
 ## Ontology  
-
+- low-level london tourist information  
+- goal is to get users to take a survey, with optional email newsletter signup  
 ## Taxonomy 
 
 ## Choreography  
