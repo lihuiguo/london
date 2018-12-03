@@ -27,13 +27,16 @@
 		<footer class="persistent">
 			<div class="container">
 				<section class="weak-follow">
-				<a href="login.php" class="login-link">
-					Admin Login
-				</a>
-				<a href="new-user.php">
-				 Sign Up
-				</a>
-			
+						<div>
+							<a href="login.php" class="login-link">
+							Admin Login
+							</a>
+						</div>
+						<div>
+							<a href="new-user.php">
+							 Sign Up
+							</a>
+						</div>
 				</section>
 				<h2 class="terminal">
 					<a href="survey.php" class="survey-link">Take Our Survey!</a> 
