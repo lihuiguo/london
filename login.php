@@ -1,6 +1,7 @@
 <?php
 // Initialize the session
 session_start();
+//this is bootstrapped, but that might be something to change in CSS Design. 
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
@@ -99,6 +100,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
+<header class="persistent">
+            <div class="container">
+                <h1 class="lead">London Calling!</h1>
+            </div>
+</header>
 <body>
     <div class="wrapper">
         <h2>Login</h2>
@@ -117,8 +123,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+            <p>Don't have an account? <a href="new-user.php">Sign up now</a>.</p>
         </form>
+        <p>
+        	<a href="index.php">Home</a> 
+        </p>
     </div>    
 </body>
 </html>

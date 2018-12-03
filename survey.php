@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>London-Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 </head>
+<header class="persistent">
+			<div class="container">
+				<h1 class="lead">London Calling!</h1>
+			</div>
+</header>
 <body>
 	<main>
-		<form>
-			<p>
+		<form action="thanks.php">
+				<!-- Radio Buttons/Forms here-->
+			<div>
 				First Name <input type="text" name="firstname">
-			</p>
+			</div>
 
-			<p>
+			<div>
 				Last Name <input type="text" name="lastname">
-			</p>
-			<p>
+			</div>
+			<div>
 				Have you ever visited London before? 
 				<input type="radio" name="have-visited" value="yes"> Yes
 				<input type="radio" name="have-visited" value="no"> No
-			</p>
-			<p>
+			</div>
+			<div>
 				If so, when? 
 				<input type="text" name="date-visited">
-			</p>
-			<
-			<!-- Radio Buttons/Forms here-->
+			</div>
+			<div>
+				Would you like to visit London?
+			</div>
+
+			<div>
+				If so, sign up for our newsleter for tourist tips and expert travel advice!
+			</div>
+			<div>
+					Email <input type="text" name="email">
+			</div>
+			<div>
+				<input type="submit" value="Submit">
+			</div>
+		
+		
 		</form>
 	</main>
 
