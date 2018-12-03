@@ -132,4 +132,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </form>
     </div>    
 </body>
+<footer>
+		<section>
+		<a href="index.php">Home</a>
+		</section>	
+		
+</footer>
 </html>
