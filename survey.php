@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>London-Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 </head>
 <body>
 	<main>
