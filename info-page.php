@@ -24,7 +24,9 @@
 		History
 	</h2>
 		<p>
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			The history of London, the capital city of England and the United Kingdom, extends over 2000 years. In that time, it has become one of the world's most significant financial and cultural capital cities. It has withstood plague, devastating fire, civil war, aerial bombardment, terrorist attacks, and riots.
+
+			The City of London, often referred to simply as "the City", is the historic core of the Greater London area, and is today its primary financial district, though it represents only a small part of the wider metropolis.
 		</p>
 		<img src="img/palace-of-westminster.jpg">
 
@@ -32,7 +34,7 @@
 		Attractions
 	</h2>
 		<p>
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			The range of tourist attractions in London is endless. Take a London bus tour for some sightseeing and see the top London attractions, such as Buckingham Palace, Big Ben, Tower of London and London Bridge, with no effort whatsoever. Take some time out to explore the ZSL London Zoo and the SEA LIFE London aquarium, experience some London history at the London Dungeon and the London Bridge Experience or visit an exhibition at one of London’s many museums, such as the Science Museum. Take the Warner Bros Studio tour and go behind the scenes at the Harry Potter studios, hang out with the stars at Madame Tussauds and enjoy some London theatre in the West End. Take a look at our complete guide of things to do or explore our London Attractions Map to make sure you don't miss out on a single thing.
 		</p>
 		<img src="img/changingoftheguard.jpg">
 
