@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>London Info</title>
 </head>
+<header class="persistent">
+			<div class="container">
+				<h1 class="lead">Visit London!</h1>
+			</div>
+</header>
 <body>
 
 	<h1>

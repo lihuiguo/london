@@ -19,6 +19,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         body{ font: 14px sans-serif; text-align: center; }
     </style>
 </head>
+<header class="persistent">
+			<div class="container">
+				<h1 class="lead">Visit London!</h1>
+			</div>
+</header>
 <body>
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site. Eventually survey data will be shown here</h1>

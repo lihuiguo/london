@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>London-Survey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 </head>
+<header class="persistent">
+			<div class="container">
+				<h1 class="lead">Visit London!</h1>
+			</div>
+</header>
 <body>
 	<main>
 		<form action="thanks.php">

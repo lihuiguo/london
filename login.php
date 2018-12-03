@@ -100,6 +100,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
+<header class="persistent">
+            <div class="container">
+                <h1 class="lead">Visit London!</h1>
+            </div>
+</header>
 <body>
     <div class="wrapper">
         <h2>Login</h2>
