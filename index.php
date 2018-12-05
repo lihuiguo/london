@@ -41,11 +41,6 @@
 							Admin Login
 							</a>
 						</div>
-						<div>
-							<a href="new-user.php">
-							 Sign Up
-							</a>
-						</div>
 				</section>
 				<h2 class="terminal">
 					<a href="survey.php" class="survey-link">Take Our Survey!</a>
