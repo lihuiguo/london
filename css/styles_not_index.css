@@ -1,8 +1,4 @@
 body {
-background-image: url("../img/london-skyline.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-background-color: blue; /*backup color !!!! */
+  color: pink;
+  background-color: green;
 }
