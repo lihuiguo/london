@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Visiting London</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_index.css">
+
 </head>
 
 <body>
@@ -12,11 +13,16 @@
 				<h1 class="lead">London Calling!</h1>
 			<section class="strong-follow">
 
-				<p>
-					<a href="info-page.php">
-						See what London has to offer!
-					</a>
-				</p>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.php">Home</a>
+						</li>
+						<li>
+							<a href="info-page.php">Information</a>
+						</li>
+					</ul>
+				</nav>
 			</section>
 			</div>
 		</header>
