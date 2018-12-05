@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>London Info</title>
-	<link rel="stylesheet" href="css/styles_notIndex.css">
+	<link rel="stylesheet" href="css/styles_not_index.css">
 </head>
 <header class="persistent">
 			<div class="container">

@@ -1,4 +1,27 @@
+/* Theme colors from: https://coolors.co/6482a8-000000-a1b5d8-fffcf7-d7d6d6,
+Z Pattern from Professor Kostin,
+index styling from Cassidy and Aliye's Midterm
+*/
+
+/* layout ***************************************************/
+.container {
+max-width: 960px;
+margin: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 160px 1fr 220px;
+  padding-top: 20px;
+}
+
+
 body {
   color: pink;
   background-color: green;
+}
+
+/* state ***************************************************/
+a:hover {
+  color: #EFCB3D; /*UPTES*/
 }
