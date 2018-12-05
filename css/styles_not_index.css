@@ -9,7 +9,7 @@ max-width: 1024px;
 margin: auto;
 }
 
-main {
+main, {
   display: grid;
   grid-template-columns: 160px 1fr 220px;
   padding-top: 20px;
@@ -56,7 +56,7 @@ a {
 
 /* state ***************************************************/
 a:hover {
-  color: #EFCB3D; /*UPDATE*/
+  color: #a1b5d8; /*UPDATE*/
 }
 
 .is-current {

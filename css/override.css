@@ -4,10 +4,12 @@ index styling from Cassidy and Aliye's Midterm
 */
 
 /* layout ***************************************************/
-main {
+main, .wrapper { /* "main" in some of the bootstrap'd pages, "".wrapper" in others */
   max-width: 960px;
+  min-width: 800px;
   margin: auto;
   display: grid;
+  padding: 30px;
 }
 
 header h1{
@@ -18,7 +20,19 @@ header h1{
 }
 
 header {
-  font-size: 80px;  /*doesnt do anything*/
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+header h1 {
+  grid-column: 1/2;
+  margin-left: 20px;
+}
+
+header nav {
+  grid-column: 2/3;
+  padding-right: 30px;
+  padding-top: 20px;
 }
 
 
@@ -29,12 +43,17 @@ a {
   text-decoration: none;
 }
 
+main a, .wrapper a {
+  color: #a1b5d8;
+}
+
 body {
   background-color: #6482a8;
 }
 
-main {
+main, .wrapper { /* "main" in some of the bootstrap'd pages, "".wrapper" in others */
   background-color: #fffcf7;
+  line-height: 30px;
 }
 
 header {
@@ -42,9 +61,22 @@ header {
   color: #000000;
 }
 
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /* state ***************************************************/
 a:hover {
-  color: #EFCB3D; /*UPDATE*/
+  color: #a1b5d8; /*UPDATE*/
+}
+
+header a:hover {
+  color: #fffcf7;
 }
 
 .is-current {
