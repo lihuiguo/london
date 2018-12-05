@@ -104,6 +104,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="container">
                 <h1 class="lead"><a href="index.php">London Calling!</a></h1>
             </div>
+            <section class="strong-follow">
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="login.php">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
 </header>
 <body>
     <div class="wrapper">
