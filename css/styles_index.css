@@ -1,3 +1,5 @@
+/* Theme colors from: https://coolors.co/6482a8-000000-a1b5d8-fffcf7-d7d6d6, Z Pattern from Professor Kostin, 
+
 body {
 background-image: url("../img/london-skyline.jpg");
 background-size: cover;
@@ -20,12 +22,11 @@ background-color: blue; /*backup color !!!! CHANGE to whatever background color 
 header.persistent {
 	top: 0;
 	background-color: #3f4a4a;
-	box-shadow: 0px 4px 8px #193952;
 }
+
 footer.persistent {
 	bottom: 0;
 	background-color: #3f4a4a;
-	box-shadow: 0px 4px 8px #193952;
 }
 
 /* STYLING 4 QUADRANTS*/
@@ -50,7 +51,6 @@ footer.persistent {
 
 .lead {
 	font-size: 32pt;
-	text-shadow: 2px 2px rgba(162, 205, 204, 0.67);
 }
 
 
@@ -62,9 +62,7 @@ footer.persistent {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	margin-top: 5px;
-	margin-left: 35px;;
-	color: rgba(162, 205, 204, 0.67)
-
+	margin-left: 35px;
 }
 
 .terminal {

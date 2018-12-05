@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>London Info</title>
+	<link rel="stylesheet" href="css/styles_notIndex.css">
 </head>
 <header class="persistent">
 			<div class="container">
@@ -25,7 +26,7 @@
 <body>
 
 	<main class="container">
-		
+
 
 	<h2>
 		Food & Drink
@@ -62,6 +63,6 @@
 	<div>
 		<a href="survey.php" >Take our survey!</a>
 	</div>
-	
+
 </footer>
 </html>

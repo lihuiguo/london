@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>London-Survey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" href="css/override.css">
+
 </head>
 <header class="persistent">
 			<div class="container">
@@ -22,12 +24,12 @@
 				Last Name <input type="text" name="last_name">
 			</div>
 			<div>
-				Have you ever visited London before? 
+				Have you ever visited London before?
 				<input type="radio" name="has_visited" value="yes"> Yes
 				<input type="radio" name="has_visited" value="no"> No
 			</div>
 			<div>
-				If so, when? 
+				If so, when?
 				<input type="text" name="date_visited">
 			</div>
 			<div>
@@ -43,8 +45,8 @@
 			<div>
 				<input type="submit" value="Submit">
 			</div>
-		
-		
+
+
 		</form>
 	</main>
 

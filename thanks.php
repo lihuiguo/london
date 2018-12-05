@@ -21,6 +21,8 @@ if(isset($_POST["first_name"], $_POST["last_name"], $_POST["has_visited"], $_POS
 <head>
 	<meta charset="UTF-8">
 	<title>Thanks!</title>
+  <link rel="stylesheet" href="css/override.css">
+
 </head>
 <header class="persistent">
 			<div class="container">
@@ -29,7 +31,7 @@ if(isset($_POST["first_name"], $_POST["last_name"], $_POST["has_visited"], $_POS
 </header>
 <body>
 	<div>
-		Thank you for your input! 
+		Thank you for your input!
 	</div>
 	<div>
 		<a href="index.php"> Home</a>
