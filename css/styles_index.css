@@ -6,8 +6,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
-background-color: #6482a8; /*backup color !!!! CHANGE to whatever background color from elsewhere */
+background-color: #6482a8;
 }
+/* layout ***************************************************/
 
 
 /*****************************************************************Z Pattern from Professor Kostin*/
@@ -91,6 +92,20 @@ main {
 	opacity: .72;
 	padding: 20px;
 	border-radius: 8px;
-	box-shadow: 0 4px 8px 0 #193952;
+}
+
+
+/* styles ***************************************************/
+
+a {
+  color: #fffcf7;
+}
+
+/* state ***************************************************/
+a:hover {
+  color: #EFCB3D; /*UPDATE*/
+}
+
+.is-current {
 
 }

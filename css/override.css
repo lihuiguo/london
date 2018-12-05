@@ -3,7 +3,50 @@ Z Pattern from Professor Kostin,
 index styling from Cassidy and Aliye's Midterm
 */
 
+/* layout ***************************************************/
+main {
+  max-width: 960px;
+  margin: auto;
+  display: grid;
+}
+
+header h1{
+  max-width: 960px;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+header {
+  font-size: 80px;  /*doesnt do anything*/
+}
+
+
+
+/* styles ***************************************************/
+a {
+  color: #fffcf7;
+  text-decoration: none;
+}
+
 body {
-  color: pink;
-  background-color: green;
+  background-color: #6482a8;
+}
+
+main {
+  background-color: #fffcf7;
+}
+
+header {
+  background-color: #a1b5d8;
+  color: #000000;
+}
+
+/* state ***************************************************/
+a:hover {
+  color: #EFCB3D; /*UPDATE*/
+}
+
+.is-current {
+
 }
