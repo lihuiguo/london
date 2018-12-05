@@ -23,7 +23,7 @@
 
 		<main>
 			<div id="big-message" class="hero">
-				<h2>Want to go to London? Learn more about the city here!</h2>
+				<h2>Want to visit this historic cit? Learn more <a href="info-page.php">here</a>!</h2>
 			</div>
 		</main>
 
