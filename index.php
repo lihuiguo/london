@@ -29,7 +29,7 @@
 
 		<main>
 			<div id="big-message" class="hero">
-				<h2>Knonw first as Londinium while under man rule, the City of London has been around for over two millenia! Want to visit this historic city? Learn more <a href="info-page.php">here</a>!</h2>
+				<h2>Known first as Londinium while under man rule, the City of London has been around for over two millenia! Want to visit this historic city? Learn more <a href="info-page.php">here</a>!</h2>
 			</div>
 		</main>
 
