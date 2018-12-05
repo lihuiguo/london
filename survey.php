@@ -24,22 +24,28 @@
 			</div>
 			<div>
 				What aspect of the City of London most interests you?
+				<div>
 				<input type="radio" name="has_visited" value="food-and-drink"> Food and Drink
 				<input type="radio" name="has_visited" value="history"> History
 				<input type="radio" name="has_visited" value="cultural-attractions"> Cultural Attractions
 				<input type="radio" name="has_visited" value="all"> All of the above
+				</div>
 			</div>
 			<div>
 				What type of food and drink are you interested in learning more about? 
+				<div>
 				<input type="checkbox" name="food" value="Afternoon-Tea"> Afternoon Tea
 				<input type="checkbox" name="food" value="Pubs-and-Bars"> Pubs and Bars 
 				<input type="checkbox" name="food" value="Fine-Dining"> Fine Dining 
+				</div>
 			</div>
 			<div>
 				What type of cultural attractionsare you most interested in? 
+				<div>
 				<input type="checkbox" name="attractions" value="parks-and-gardens"> Parks and Gardens
 				<input type="checkbox" name="attractions" value="amusements"> Family Amusements 
 				<input type="checkbox" name="attractions" value="museums-and-galleries"> Museums and Galleries 
+				</div>
 			</div>
 			<div>
 				Would you like to visit London?
