@@ -81,7 +81,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
     <link rel="stylesheet" href="css/override.css">
-
 </head>
 <body>
     <div class="wrapper">

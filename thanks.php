@@ -22,13 +22,11 @@ if(isset($_POST["first_name"], $_POST["last_name"], $_POST["has_visited"], $_POS
 	<meta charset="UTF-8">
 	<title>Thanks!</title>
   <link rel="stylesheet" href="css/override.css">
-
 </head>
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
 			</div>
-			
 </header>
 <body>
 	<div>
