@@ -10,6 +10,7 @@
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
 			</div>
+			<section class="strong-follow">
 			<nav>
 					<ul>
 						<li>
@@ -20,6 +21,7 @@
 						</li>
 					</ul>
 				</nav>
+			</section>
 </header>
 <body>
 	<main>
