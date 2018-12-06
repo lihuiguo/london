@@ -110,7 +110,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				<h1 class="lead"><a href="index.php">London Calling!</a></h1>
 			</div>  
             <?php $is-current = '<a href="new-user.php">Sign Up</a>'; ?>
-            <?php include 'inc/nav.php';
+            <?php include 'inc/nav.php';?>
 </header>
 <body>
     <div class="wrapper">
