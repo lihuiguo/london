@@ -16,10 +16,8 @@ if(isset($_POST["first_name"], $_POST["last_name"], $_POST["has_visited"], $_POS
 }
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
+<?php include 'inc/html-top.php';?>
+
 	<title>Thanks!</title>
   <link rel="stylesheet" href="css/override.css">
 </head>
