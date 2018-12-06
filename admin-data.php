@@ -41,20 +41,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div class="container">
                 <h1 class="lead"><a href="index.php">London Calling!</a></h1>
             </div>
+            <?php $iscurrent ="<a href='admin-data.php'>Administration</a>"?>
             <?php include 'inc/nav.php';?>
-            <section class="strong-follow">
 
-        <nav>
-          <ul>
-            <li>
-              <a href="index.php">Home</a>
-            </li>
-            <li>
-              <a href="admin-data.php">Administration</a>
-            </li>
-          </ul>
-        </nav>
-      </section>
 </header>
  <body>
   <div class="container box">

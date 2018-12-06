@@ -9,20 +9,9 @@
 			<div class="container">
 				<h1 class="lead">London Calling</h1>
 			</div>
+			<?php $iscurrent ="<a href='info-page.php'>Information</a>"?>
 			<?php include 'inc/nav.php';?>
-			<section class="strong-follow">
-
-				<nav>
-					<ul>
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li>
-							<a href="info-page.php">Information</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
+		
 </header>
 <body>
 
