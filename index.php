@@ -11,6 +11,7 @@
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
+			<?php include 'inc/nav.php';?>
 			<section class="strong-follow">
 
 				<nav>

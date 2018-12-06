@@ -105,6 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="container">
                 <h1 class="lead"><a href="index.php">London Calling!</a></h1>
             </div>
+            <?php include 'inc/nav.php';?>
             <section class="strong-follow">
 
                 <nav>
