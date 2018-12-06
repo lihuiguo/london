@@ -11,7 +11,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <html>
  <head>
-  <title>Live Add Edit Delete Datatables Records using PHP Ajax</title>
+  <title>User Responses</title>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
@@ -47,7 +47,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </header>
  <body>
   <div class="container box">
-   <h1 align="center">Live Add Edit Delete Datatables Records using PHP Ajax</h1>
+   <h1 align="center">User Responses</h1>
    <br />
    <div class="table-responsive">
    <br />
@@ -59,7 +59,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <table id="user_data" class="table table-bordered table-striped">
      <thead>
       <tr>
-       <th>Frist Name</th>
+       <th>First Name</th>
        <th>Last Name</th>
        <th></th>
       </tr>
