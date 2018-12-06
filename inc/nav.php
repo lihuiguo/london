@@ -6,7 +6,7 @@
 							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<?php echo "$is-current";?>
+							<?php echo "$iscurrent";?>
 						</li>
 					</ul>
 				</nav>
