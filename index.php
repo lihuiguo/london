@@ -11,13 +11,12 @@
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
-			<?php include 'inc/nav.php';?>
 			<section class="strong-follow">
 
 				<nav>
 					<ul>
 						<li>
-							<a href="index.php">Home</a>
+							<a href="index.php" class="is-current">Home</a>
 						</li>
 						<li>
 							<a href="info-page.php">Information</a>
