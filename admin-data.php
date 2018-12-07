@@ -61,6 +61,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <tr>
        <th>First Name</th>
        <th>Last Name</th>
+       <th>Most Interested</th>
+       <th>Food/Drink</th>
+       <th>Attractions</th>
+       <th>Email</th>
        <th></th>
       </tr>
      </thead>
@@ -121,6 +125,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
    var html = '<tr>';
    html += '<td contenteditable id="data1"></td>';
    html += '<td contenteditable id="data2"></td>';
+   html += '<td contenteditable id="data3"></td>';
+   html += '<td contenteditable id="data4"></td>';
+   html += '<td contenteditable id="data5"></td>';
+   html += '<td contenteditable id="data6"></td>';
    html += '<td><button type="button" name="insert" id="insert" class="btn btn-success btn-xs">Insert</button></td>';
    html += '</tr>';
    $('#user_data tbody').prepend(html);
@@ -129,12 +137,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   $(document).on('click', '#insert', function(){
    var first_name = $('#data1').text();
    var last_name = $('#data2').text();
-   if(first_name != '' && last_name != '')
+   var has_visited = $('#data3').text();
+   var food = $('#data4').text();
+   var attractions = $('#data5').text();
+   var email = $('#data6').text();
+   if(first_name != '' && last_name != '' && has_visited != '' && food != '' && attractions != '' && email != '')
    {
     $.ajax({
      url:"insert.php",
      method:"POST",
-     data:{first_name:first_name, last_name:last_name},
+     data:{first_name:first_name, last_name:last_name, has_visited:has_visited, food:food, attractions:attractions, email:email},
      success:function(data)
      {
       $('#alert_message').html('<div class="alert alert-success">'+data+'</div>');
@@ -148,7 +160,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
    }
    else
    {
-    alert("Both Fields is required");
+    alert("All Fields are required");
    }
   });
   

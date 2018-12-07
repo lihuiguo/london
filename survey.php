@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div>
-				What type of cultural attractionsare you most interested in? 
+				What type of cultural attractions are you most interested in? 
 				<div>
 				<input type="checkbox" name="attractions" value="parks-and-gardens"> Parks and Gardens
 				<input type="checkbox" name="attractions" value="amusements"> Family Amusements 
