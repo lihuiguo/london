@@ -1,19 +1,59 @@
+<html>
+<head>
+    <title>Add Data</title>
+</head>
+ 
+<body>
 <?php
-$connect = mysqli_connect('66.147.242.186', 'urcscon3_london', 'coffee1N/!', 'urcscon3_london')
-if(isset($_POST["first_name"], $_POST["last_name"], $_POST["has_visited"], $_POST["food"], $_POST["attractions"], $_POST["email"]))
-{
- $first_name = mysqli_real_escape_string($connect, $_POST["first_name"]);
- $last_name = mysqli_real_escape_string($connect, $_POST["last_name"]);
- $has_visited = mysqli_real_escape_string($connect, $_POST["has_visited"]);
- $food = mysqli_real_escape_string($connect, $_POST["food"]);
- $attractions = mysqli_real_escape_string($connect, $_POST["attractions"]);
- $email = mysqli_real_escape_string($connect, $_POST["email"]);
+//including the database connection file
+include_once("config.php");
+ 
+if(isset($_POST['Submit'])) {    
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $has_visited = $_POST['has_visited'];
+    $food = $_POST['food'];
+    $attractions = $_POST['attractions-'];
+    $email = $_POST['email'];
+        
+    // checking empty fields
+    if(empty($first_name) || empty($last_name) || empty($has_visited) || empty($food) || empty($attractions) || empty($email)) {                
+        if(empty($first_name)) {
+            echo "<font color='red'>First name field is empty.</font><br/>";
+        }
+        
+        if(empty($last_name)) {
+            echo "<font color='red'>Last name field is empty.</font><br/>";
+        }
+        
+        if(empty($has_visited)) {
+            echo "<font color='red'>Interest field is empty.</font><br/>";
+        }
 
- $query = "INSERT INTO results(first_name, last_name, has_visited, food, attractions, email) VALUES('$first_name', '$last_name', '$has_visited', '$food', '$attractions', '$email')";
+        if(empty($food)) {
+            echo "<font color='red'>Food field is empty.</font><br/>";
+        }
 
- if(mysqli_query($connect, $query))
- {
-  echo 'Data Inserted';
- }
+        if(empty($attractions)) {
+            echo "<font color='red'>Attractions field is empty.</font><br/>";
+        }
+
+        if(empty($email)) {
+            echo "<font color='red'>Email field is empty.</font><br/>";
+        }
+        
+        //link to the previous page
+        echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
+    } else { 
+        // if all the fields are filled (not empty)             
+        //insert data to database
+        $result = mysqli_query($link, "INSERT INTO results(first_name, last_name, has_visited, food, attractions,email) VALUES('$first_name','last_name','has_visited','food','attractions','$email')");
+        
+        //display success message
+        echo "<font color='green'>Data added successfully.";
+        echo "<br/><a href='index.php'>View Result</a>";
+    }
 }
 ?>
+</body>
+</html>

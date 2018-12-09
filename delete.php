@@ -1,11 +1,15 @@
 <?php
-$connect = mysqli_connect('66.147.242.186', 'urcscon3_london', 'coffee1N/!', 'urcscon3_london')
-if(isset($_POST["id"]))
-{
- $query = "DELETE FROM results WHERE id = '".$_POST["id"]."'";
- if(mysqli_query($connect, $query))
- {
-  echo 'Data Deleted';
- }
-}
+
+//including the database connection file
+include("config.php");
+ 
+//getting id of the data from url
+$id = $_GET['id'];
+ 
+//deleting the row from table
+$result = mysqli_query($link, "DELETE FROM results WHERE id=$id");
+ 
+//redirecting to the display page (index.php in our case)
+header("Location:admin-data.php");
+
 ?>
