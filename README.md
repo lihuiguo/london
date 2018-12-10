@@ -5,7 +5,7 @@
 ### Classes  
  
 - USER: somoeone interested in traveling, specifically to London, who is looking for general information about the city  
-- ADMIN USER: Someone who is responsible for managing the website and its data
+- ADMIN-USER: Someone who is responsible for managing the website and its data
 - INFORMATION: the front-end and back-end information seen by someone usingthe site, _containing_ sublasses DATA and TRIVIA.    
 - DATA: the back-end databases and information that the ADMIN-USER has access too.  
 - TRIVIA: information the USER sees, _containing_ knowledge about the city and also the LINKS on each page.  
@@ -25,6 +25,7 @@ The terms used in the info-page.php file for the headings are:
 - Food & Drink  
 - Attractions  
 - History  
+
 The terms used in the survey.php code (and the response data table) include:  
 - first name  
 - last name  
