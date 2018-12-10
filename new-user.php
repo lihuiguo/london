@@ -104,11 +104,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
     <link rel="stylesheet" href="css/override.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 </head>
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead"><a href="index.php">London Calling!</a></h1>
-			</div>  
+			</div>
             <?php $iscurrent ="<a href='new-user.php'>Sign Up</a>";?>
             <?php include 'inc/nav.php';?>
 </header>

@@ -1,7 +1,7 @@
 <?php
 // Initialize the session
 session_start();
- 
+
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
@@ -12,7 +12,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <?php
 //including the database connection file
 include_once("config.php");
- 
+
 //fetching data in descending order (lastest entry first)
 //$result = mysql_query("SELECT * FROM users ORDER BY id DESC"); // mysql_query is deprecated
 $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // using mysqli_query instead
@@ -27,11 +27,16 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
     <style type="text/css">
         body{ font: 14px sans-serif; text-align: center; }
     </style>
+    <link rel="stylesheet" href="css/override.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+
 </head>
 <body>
-    
+
+  <div class="wrapper">
+
   <a href="survey.php">Add New Data</a><br/><br/>
- 
+
     <table width='80%' border=0>
         <tr bgcolor='#CCCCCC'>
             <td>First Name</td>
@@ -42,17 +47,17 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
             <td>Email</td>
             <td>Update</td>
         </tr>
-        <?php 
-        //while($res = mysql_fetch_array($result)) { // mysql_fetch_array is deprecated, we need to use mysqli_fetch_array 
-        while($res = mysqli_fetch_array($result)) {         
+        <?php
+        //while($res = mysql_fetch_array($result)) { // mysql_fetch_array is deprecated, we need to use mysqli_fetch_array
+        while($res = mysqli_fetch_array($result)) {
             echo "<tr>";
             echo "<td>".$res['first_name']."</td>";
             echo "<td>".$res['last_name']."</td>";
             echo "<td>".$res['has_visited']."</td>";
             echo "<td>".$res['food']."</td>";
             echo "<td>".$res['attractions']."</td>";
-            echo "<td>".$res['email']."</td>";    
-            echo "<td><a href=\"edit.php?id=$res[id]\">Edit</a> | <a href=\"delete.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";        
+            echo "<td>".$res['email']."</td>";
+            echo "<td><a href=\"edit.php?id=$res[id]\">Edit</a> | <a href=\"delete.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
         }
         ?>
     </table>
@@ -64,5 +69,7 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
         <a href="reset.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
+
+  </div>
 </body>
 </html>

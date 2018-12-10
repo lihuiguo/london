@@ -4,11 +4,14 @@
 	<meta charset="UTF-8">
 	<title>London Info</title>
 	<link rel="stylesheet" href="css/styles_not_index.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 </head>
 <header class="persistent">
 				<h1 class="lead">London Calling</h1>
-			</div>
-			<?php $iscurrent ="<a class="is-current" href='info-page.php'>Information</a>"?>
+
+
+			<?php $iscurrent ="<a class= href='info-page.php'>Information</a>"?>
+
 			<?php include 'inc/nav.php';?>
 
 </header>

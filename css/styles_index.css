@@ -116,6 +116,14 @@ li {
 	list-style-type: none;
 }
 
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+main, .section{
+  font-family: 'Lora', serif;
+}
+
 
 /* state ***************************************************/
 a:hover {

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Visiting London</title>
 	<link rel="stylesheet" href="css/styles_index.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 
 </head>
 

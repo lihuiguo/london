@@ -86,11 +86,21 @@ ul {
   list-style-type: none;
 }
 
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, p {
+  font-family: 'Lora', serif;
+}
+
+
+
 /* state ***************************************************/
 a:hover {
   color: #d7d6d6; /*UPDATE*/
 }
 
 .is-current {
-  color: #d7d6d6;
+  color: black;
 }

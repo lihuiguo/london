@@ -70,15 +70,38 @@ ul {
   list-style-type: none;
 }
 
+.wrapper p a {
+  color: #000000;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+div, p {
+  font-family: 'Lora', serif;
+}
+
+li a {
+  font-family: 'Lora', serif;
+}
+
+
 /* state ***************************************************/
 a:hover {
   color: #a1b5d8; /*UPDATE*/
 }
+
+
 
 header a:hover {
   color: #fffcf7;
 }
 
 .is-current {
-
+  color: 000000;
 }

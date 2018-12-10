@@ -5,14 +5,17 @@
 	<title>London-Survey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 	<link rel="stylesheet" href="css/override.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 </head>
 <header class="persistent">
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
 			</div>
+			<div class="strong-follow">
 			<?php $iscurrent ="<a href='survey.php'>Questionnaire</a>"?>
 			<?php include 'inc/nav.php';?>
-			
+		</div>
+
 </header>
 <body>
 	<main>
@@ -35,22 +38,22 @@
 				</div>
 			</div>
 			<div>
-				What type of food and drink are you interested in learning more about? 
+				What type of food and drink are you interested in learning more about?
 				<div>
 				<input type="checkbox" name="food" value="Afternoon-Tea"> Afternoon Tea
-				<input type="checkbox" name="food" value="Pubs-and-Bars"> Pubs and Bars 
-				<input type="checkbox" name="food" value="Fine-Dining"> Fine Dining 
+				<input type="checkbox" name="food" value="Pubs-and-Bars"> Pubs and Bars
+				<input type="checkbox" name="food" value="Fine-Dining"> Fine Dining
 				</div>
 			</div>
 			<div>
-				What type of cultural attractions are you most interested in? 
+					What type of cultural attractions are you most interested in?
 				<div>
 				<input type="checkbox" name="attractions" value="parks-and-gardens"> Parks and Gardens
-				<input type="checkbox" name="attractions" value="amusements"> Family Amusements 
-				<input type="checkbox" name="attractions" value="museums-and-galleries"> Museums and Galleries 
+				<input type="checkbox" name="attractions" value="amusements"> Family Amusements
+				<input type="checkbox" name="attractions" value="museums-and-galleries"> Museums and Galleries
 				</div>
 			</div>
-			<div>
+			<div class="question">
 				Would you like to visit London?
 			</div>
 
