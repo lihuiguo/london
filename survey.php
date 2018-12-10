@@ -12,7 +12,7 @@
 				<h1 class="lead">London Calling!</h1>
 			</div>
 			<div class="strong-follow">
-			<?php $iscurrent ="<a href='survey.php'>Questionnaire</a>"?>
+			<?php $iscurrent ="<a class= 'is-current' href='survey.php'>Questionnaire</a>"?>
 			<?php include 'inc/nav.php';?>
 		</div>
 

@@ -34,8 +34,9 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
 <body>
 
   <header>
-    <?php $iscurrent ="<a class= href='admin-data.php'>Administration</a>"?>
-    
+    <?php $iscurrent ="<a class= 'is-current' href='admin-data.php'>Administration</a>" ?> 
+
+
     <?php include 'inc/nav.php';?>
   </header>
 

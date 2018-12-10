@@ -5,8 +5,8 @@
 						<li>
 							<a href="index.php">Home</a>
 						</li>
-						<li>
-							<?php echo "$iscurrent";?>
+						<li class="is-current">
+							<?php echo "$iscurrent";  ?>
 						</li>
 					</ul>
 				</nav>

@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="container">
                 <h1 class="lead"><a href="index.php">London Calling!</a></h1>
             </div>
-            <?php $iscurrent ="<a href='login.php'>Login</a>"?>
+            <?php $iscurrent ="<a class= 'is-current' href='login.php'>Login</a>"?>
             <?php include 'inc/nav.php';?>
 
 </header>
