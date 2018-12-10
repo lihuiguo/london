@@ -33,6 +33,12 @@ $result = mysqli_query($link, "SELECT * FROM results ORDER BY id DESC"); // usin
 </head>
 <body>
 
+  <header>
+    <?php $iscurrent ="<a class= href='admin-data.php'>Administration</a>"?>
+    
+    <?php include 'inc/nav.php';?>
+  </header>
+
   <div class="wrapper">
 
   <a href="survey.php">Add New Data</a><br/><br/>
