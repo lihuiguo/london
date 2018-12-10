@@ -10,6 +10,9 @@
 			<div class="container">
 				<h1 class="lead">London Calling!</h1>
 			</div>
+			<?php $iscurrent ="<a href='survey.php'>Questionnaire</a>"?>
+			<?php include 'inc/nav.php';?>
+			
 </header>
 <body>
 	<main>
@@ -40,7 +43,7 @@
 				</div>
 			</div>
 			<div>
-				What type of cultural attractionsare you most interested in? 
+				What type of cultural attractions are you most interested in? 
 				<div>
 				<input type="checkbox" name="attractions" value="parks-and-gardens"> Parks and Gardens
 				<input type="checkbox" name="attractions" value="amusements"> Family Amusements 

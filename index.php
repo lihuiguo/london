@@ -16,7 +16,7 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="index.php">Home</a>
+							<a href="index.php" class="is-current">Home</a>
 						</li>
 						<li>
 							<a href="info-page.php">Information</a>
@@ -29,7 +29,7 @@
 
 		<main>
 			<div id="big-message" class="hero">
-				<h2>Known first as Londinium while under man rule, the City of London has been around for over two millenia! Want to visit this historic city? Learn more <a href="info-page.php">here</a>!</h2>
+				<h2>Known first as Londinium while under Roman rule, the City of London has been around for over two millenia! Want to visit this historic city? Learn more <a href="info-page.php">here</a>!</h2>
 			</div>
 		</main>
 

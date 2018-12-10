@@ -8,19 +8,9 @@
 <header class="persistent">
 				<h1 class="lead">London Calling</h1>
 			</div>
-			<section class="strong-follow">
-
-				<nav>
-					<ul>
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li>
-							<a href="info-page.php">Information</a>
-						</li>
-					</ul>
-				</nav>
-			</section>
+			<?php $iscurrent ="<a href='info-page.php'>Information</a>"?>
+			<?php include 'inc/nav.php';?>
+		
 </header>
 <body>
 
