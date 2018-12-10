@@ -16,8 +16,8 @@
 
 				<nav>
 					<ul>
-						<li>
-							<a href="index.php" class="is-current">Home</a>
+						<li class="is-current">
+							<a href="index.php" >Home</a>
 						</li>
 						<li>
 							<a href="info-page.php">Information</a>
