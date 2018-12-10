@@ -1,18 +1,8 @@
-/* Theme colors from: https://coolors.co/6482a8-000000-a1b5d8-fffcf7-d7d6d6, Z Pattern from Professor Kostin, index styling from Cassidy and Aliye's Midterm*/
-
-body {
-background-image: url("../img/london-skyline.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-background-color: #6482a8;
-}
-/* layout ***************************************************/
+/* Theme colors from: https://coolors.co/6482a8-000000-a1b5d8-fffcf7-d7d6d6,
+ Z Pattern from Professor Kostin, index styling from Cassidy and Aliye's Midterm*/
 
 
-/*****************************************************************Z Pattern from Professor Kostin*/
-/* FIXED POSITION OF HEADER/FOOTER*/
+/**** layout **************************Z Pattern from Professor Kostin*/
 .persistent {
 	position: fixed;
 	left: 0;
@@ -30,21 +20,49 @@ footer.persistent {
 	background-color: #6482a8;
 }
 
+header .container, footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+main {
+	display: flex;
+}
+
+
+/* styles ***************************************************/
+body {
+background-image: url("../img/london-skyline.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: #6482a8;
+}
+
+main {
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
 /* STYLING 4 QUADRANTS*/
 .lead, .strong-follow, .weak-follow, .terminal {
 	margin: 0px;
 	padding:20px;
-	background-color: #6482a8; /* ...style to taste */
+	background-color: #6482a8;
 }
+
 .lead, .weak-follow {
 	margin-left: 0;
 }
+
 .strong-follow, .terminal {
 	margin-right: 0;
 }
 
 .strong-follow, .weak-follow {
-		color: #a2cdcc;
 		align-content: center;
 		font-size: 16pt;
 }
@@ -64,6 +82,7 @@ footer.persistent {
 	margin-left: 35px;
 }
 
+
 .terminal {
 	font-size: 22pt;
 	font-weight: bolder;
@@ -72,19 +91,18 @@ footer.persistent {
 	text-shadow: 1px 1px rgba(162, 205, 204, 0.67);
 }
 
-/* PUSHING QUADRANT CONTENT TO EDGES*/
-header .container, footer .container {
-	display: flex;
-	justify-content: space-between;
+.weak-follow a {
+	color: #546d8a; /* intentially close to the background, hidden from view */
 }
 
-/* STYLING THE CENTER BIT */
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	text-align: center;
+a {
+  color: #fffcf7;
+	text-decoration: none;
+}
+
+.strong-follow .terminal {
+	text-decoration: none;
+  color: #fffcf7;
 }
 
 .hero {
@@ -94,18 +112,25 @@ main {
 	border-radius: 8px;
 }
 
-
-/* styles ***************************************************/
-
-a {
-  color: #fffcf7;
+li {
+	list-style-type: none;
 }
+
 
 /* state ***************************************************/
 a:hover {
-  color: #a1b5d8; /*UPDATE*/
+  color: #a1b5d8;
 }
 
-.is-current {
+.hero a:hover {
+	color: #6482a8;
+}
 
+.weak-follow a:hover { /* also intentional -- hover doesn't change a lot */
+	color: #5a7594;
+}
+
+
+.is-current a{
+	color: #d7d6d6;
 }

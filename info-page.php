@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="css/styles_not_index.css">
 </head>
 <header class="persistent">
-			<div class="container">
 				<h1 class="lead">London Calling</h1>
 			</div>
 			<section class="strong-follow">
