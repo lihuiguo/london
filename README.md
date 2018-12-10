@@ -36,7 +36,7 @@ The terms used in the survey.php code (and the response data table) include:
 - food  
 - attractions  
 - history  
-- cultural attractions  
+- cultural attractions--this was used in the form code to avoid having different wuiestions have the same value in their name. It is back-end only.
 - parks and gardens  
 - pubs and bars  
 - afternoon tea  
