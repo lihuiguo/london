@@ -8,9 +8,9 @@
 <header class="persistent">
 				<h1 class="lead">London Calling</h1>
 			</div>
-			<?php $iscurrent ="<a href='info-page.php'>Information</a>"?>
+			<?php $iscurrent ="<a class="is-current" href='info-page.php'>Information</a>"?>
 			<?php include 'inc/nav.php';?>
-		
+
 </header>
 <body>
 
